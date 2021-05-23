@@ -1,3 +1,16 @@
+class CfgPatches
+{
+	class StickyGrenades
+	{
+		units[]={};
+		weapons[]={};
+		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"DZ_Data"
+		};
+	};
+};
 class CfgMods
 {
 	class StickyGrenades
@@ -37,19 +50,6 @@ class CfgMods
 					"stickygrenades/scripts/5_Mission"
 				};
 			};
-		};
-	};
-};
-class CfgPatches
-{
-	class PlaceAnything
-	{
-		units[]={};
-		weapons[]={};
-		requiredVersion=0.1;
-		requiredAddons[]=
-		{
-			"DZ_Data"
 		};
 	};
 };
